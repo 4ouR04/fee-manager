@@ -1,0 +1,14 @@
+<div>
+    <p>Name</p>
+    <input name ="name"type="text" [(ngModel)]="Name">
+    <p>Gender</p>
+    <select name="Gender" id="gender" form="genderform">
+        <option value="male">Male</option>
+        <option value="Female">Female</option>
+   </select>
+    <p>Balance</p>
+    <input name="bal" type="text" [(ngModel)]="Balance">
+    <p></p>
+    <button (click)="onAdd()">Done</button>
+    
+</div>

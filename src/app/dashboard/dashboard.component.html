@@ -1,0 +1,12 @@
+<app-header></app-header>
+<div class="container">
+    <div class="buttons">
+        <div class="btn-1"> <a routerLink="/dashboard"><button>All Students</button></a></div>
+        <div class="btn-2"> <a routerLink="withbal"><button>With Balances</button></a></div>
+        <div class="btn-2"> <a routerLink="withoutbal"> <button>Without Balances</button></a></div>
+        <div class="btn-3"> <a routerLink="addstudent"> <button>Add Student</button></a></div>
+    </div>
+    <div class="selected">
+      <router-outlet></router-outlet>
+    </div>
+</div>

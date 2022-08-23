@@ -1,0 +1,29 @@
+div{
+    width: 15rem;
+    /* padding-top: 0rem !important; */
+    transform: translateY(-10%);
+
+}
+input[type=text]{
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid #00ffff;
+    height: 1rem;
+}
+input:focus{
+
+}
+select{
+    width: 80%;
+    height: 2rem;
+    border-color: aqua;
+}
+button{
+    margin-top: 1.5rem;
+    width: 80%;
+    border-radius: 5px;
+    height: 3rem;
+    border: none;
+    background-color: aqua;
+    color: white;
+}

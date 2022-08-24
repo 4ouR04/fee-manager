@@ -10,7 +10,7 @@ export class AllComponent implements OnInit {
   constructor(public Students: StudentServiceService) {}
 
   ngOnInit(): void { 
-    this.Students.Students=[]
+    // this.Students.Students=[]
   }
   allStudents = this.Students.Students
   // this.Students.get()
